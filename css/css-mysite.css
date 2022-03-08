@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+}
+main {
+  color: white;
+  padding: 3% 7%;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+}
+.header {
+  width: 12rem;
+  margin-bottom: 3rem;
+}
+.mid-container {
+  display: flex;
+  gap: 4rem;
+}
+.illust-mockups {
+  width: 50%;
+}
+.main-content {
+  font-family: "Open Sans", sans-serif;
+  width: 26rem;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+.main-content p {
+  margin-bottom: 3rem;
+}
+.button {
+  border-radius: 1.8rem;
+  background-color: #fff;
+  padding: 1rem 4rem;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+}
+.button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+.icon-container {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+.icon {
+  padding: 0.5rem 0.55rem;
+  border-radius: 1.8rem;
+  border-style: groove;
+  border-color: white;
+}
+
+.icon:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+.anchor-icon {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 979px) {
+  .mid-container {
+    display: flex;
+    gap: 2rem;
+  }
+  .illust-mockups {
+    width: 20rem;
+    height: 16rem;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+  }
+  .main-content p {
+    margin-bottom: 1rem;
+  }
+  .button {
+    border-radius: 1.8rem;
+    background-color: #fff;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+  }
+  .button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+  }
+}
+@media (max-width: 768px) {
+  .mid-container {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 2rem;
+  }
+}
+@media (max-width: 579px) {
+  main {
+    text-align: center;
+  }
+  .mid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+  .main-content {
+    font-family: "Open Sans", sans-serif;
+    width: 19rem;
+  }
+  .attribution {
+    color: darkorange;
+  }
+}
